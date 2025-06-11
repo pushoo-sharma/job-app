@@ -91,7 +91,7 @@ This repository contains an automated workflow designed to streamline job applic
 
 ## License
 
-MIT
+MIT License
 
 ## Author
 
