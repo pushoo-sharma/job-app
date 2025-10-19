@@ -56,13 +56,7 @@ This repository contains an automated workflow designed to streamline job applic
 
 ## Setup Instructions
 
-1. **Clone this Repository**
-
-   ```bash
-   git clone https://github.com/AloysJehwin/job-app.git
-   ```
-
-2. **Configure n8n**
+1. **Configure n8n**
 
    * Import the `Job_App.json` into your n8n instance.
    * Set up credentials for:
@@ -71,7 +65,7 @@ This repository contains an automated workflow designed to streamline job applic
      * Google Drive
      * HTTP Request (if API keys are needed)
 
-3. **Frontend Integration**
+2. **Frontend Integration**
 
    * Integrate with a basic form to collect:
 
@@ -80,7 +74,7 @@ This repository contains an automated workflow designed to streamline job applic
      * Job preferences (title, location, experience)
      * GitHub and LinkedIn links
 
-4. **Environment Variables**
+3. **Environment Variables**
    Ensure your n8n environment has appropriate API tokens (e.g., Apify, Google).
 
 ## Output
@@ -93,6 +87,3 @@ This repository contains an automated workflow designed to streamline job applic
 
 MIT License
 
-## Author
-
-Created by Aloys Jehwin
